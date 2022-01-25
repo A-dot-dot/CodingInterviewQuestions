@@ -1,4 +1,4 @@
-package PACKAGE_NAME;public class ClimbingStairs_70 {
+public class ClimbingStairs_70 {
   private int countWays(int n, int[] ways) {
         if(ways[n-1] == 0) {
             ways[n-1] = countWays(n-1, ways) +
